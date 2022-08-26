@@ -16,7 +16,6 @@ const ExpenseChart = (props) => {
         { label: "Oct", value: 0 },
         { label: "Nov", value: 0 },
         { label: "Dec", value: 0 }
-
     ];
 
     for (const expense of props.expenses) {
